@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="70dp">
+
+    <ImageView
+        android:id="@+id/song_sheet_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/item_defual" />
+
+
+    <TextView
+        android:id="@+id/song_sheet_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/song_sheet_image"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@id/song_sheet_image"
+        android:text="我喜欢"
+        android:textColor="#333"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/song_sheet_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/song_sheet_name"
+        android:layout_alignLeft="@id/song_sheet_name"
+        android:layout_marginTop="4dp"
+        android:text="0首"
+        android:textColor="#888"
+        android:textSize="14dp"
+
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        android:src="@drawable/move" />
+
+
+</RelativeLayout>
